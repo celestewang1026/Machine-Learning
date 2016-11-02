@@ -2,8 +2,9 @@
  * 
  *HMM类：ࣺ
  *1.HMM模型的几个重要参数 ，两个状态，三个矩阵
- *2.�������������췽����
- */
+ *2.定义了两个构造方法：
+ *
+ */    
 public class HMM {
 	protected int N;//状态数״
 	protected int M;//观察符号数
