@@ -6,7 +6,7 @@
  *
  */    
 public class HMM {
-	protected int N;//状态数״
+	protected int N;//状态数
 	protected int M;//观察符号数
 	protected double[][] A;//״̬状态转移概率矩阵，N*N矩阵
 	protected double[][] B;//符号观测概率矩阵，即混淆矩阵，N*M矩阵
@@ -16,7 +16,7 @@ public class HMM {
 	//参数1 状态数目；参数2  观察符号数目
 	public HMM(int stateNum,int observationSymbolNum)
 	{
-		N=stateNum;//隐藏状态״̬
+		N=stateNum;//隐藏状态̬
 		M=observationSymbolNum;//可能的状态数
 		A=new double[N][N];
 		B=new double[N][M];
