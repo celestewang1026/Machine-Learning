@@ -1,5 +1,6 @@
 /**
  * @author wy150_000
+ * 根据海藻形态预测天气状况
  */
 import java.util.List;
 
