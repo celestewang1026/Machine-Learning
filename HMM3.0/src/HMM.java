@@ -17,7 +17,7 @@ public class HMM {
 	public HMM(int stateNum,int observationSymbolNum)
 	{
 		N=stateNum;//隐藏状态״̬
-		M=observationSymbolNum;//可能的状态数״̬
+		M=observationSymbolNum;//可能的状态数
 		A=new double[N][N];
 		B=new double[N][M];
 		PI=new double[N];
